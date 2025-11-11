@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +49,18 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        fresh: {
+          DEFAULT: "hsl(var(--fresh))",
+          bg: "hsl(var(--fresh-bg))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          bg: "hsl(var(--warning-bg))",
+        },
+        expired: {
+          DEFAULT: "hsl(var(--expired))",
+          bg: "hsl(var(--expired-bg))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
